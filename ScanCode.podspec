@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git@github.com:meliguangjian/ScanCode.git", :tag => "0.0.1" }
   s.source_files  = "ScanCode/*.{h,m}"
   s.requires_arc = true
-
+    s.resources = ["ScanCode/resources/*"]
 end
