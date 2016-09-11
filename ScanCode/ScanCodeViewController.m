@@ -73,7 +73,7 @@
     
     UIButton *identifyBtn = [[UIButton alloc]initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width - 30 - 10, 20, 30, 30)];
     
-    [identifyBtn setImage:[UIImage imageNamed:@"upgrade"] forState:UIControlStateNormal];
+    [identifyBtn setImage:[UIImage imageNamed:@"ipc_image_placeholder"] forState:UIControlStateNormal];
     
     [identifyBtn addTarget:self action:@selector(openPhoto) forControlEvents:UIControlEventTouchUpInside];
     
