@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = 'jjjjjj.'
   s.platform     =  :ios, '8.0'
   s.source       = { :git => "git@github.com:meliguangjian/ScanCode.git", :tag => "0.0.1" }
-  s.source_files  = "ScanCode/ScanCode/*.{h,m}"
+  s.source_files  = "ScanCode/*.{h,m}"
   s.requires_arc = true
 
 end
