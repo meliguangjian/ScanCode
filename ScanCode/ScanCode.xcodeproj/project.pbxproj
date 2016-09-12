@@ -16,6 +16,7 @@
 		9719B9761D83DCCF00539919 /* ScanCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9719B9751D83DCCF00539919 /* ScanCode.m */; };
 		9719B9791D83E19900539919 /* ScanCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9719B9781D83E19900539919 /* ScanCodeViewController.m */; };
 		9719B97C1D840DDB00539919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9719B97A1D840DDB00539919 /* Main.storyboard */; };
+		97A88DEC1D86ABD400FA99E1 /* ScanCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97A88DEB1D86ABD400FA99E1 /* ScanCode.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		9719B9771D83E19900539919 /* ScanCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCodeViewController.h; sourceTree = "<group>"; };
 		9719B9781D83E19900539919 /* ScanCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCodeViewController.m; sourceTree = "<group>"; };
 		9719B97B1D840DDB00539919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97A88DEB1D86ABD400FA99E1 /* ScanCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ScanCode.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9719B9751D83DCCF00539919 /* ScanCode.m */,
 				9719B9771D83E19900539919 /* ScanCodeViewController.h */,
 				9719B9781D83E19900539919 /* ScanCodeViewController.m */,
+				97A88DEB1D86ABD400FA99E1 /* ScanCode.bundle */,
 			);
 			path = ScanCode;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				9719B97C1D840DDB00539919 /* Main.storyboard in Resources */,
 				9719B95F1D83B4DE00539919 /* LaunchScreen.storyboard in Resources */,
 				9719B95C1D83B4DE00539919 /* Assets.xcassets in Resources */,
+				97A88DEC1D86ABD400FA99E1 /* ScanCode.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +420,7 @@
 				9719B9701D83B4DE00539919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9719B9711D83B4DE00539919 /* Build configuration list for PBXNativeTarget "ScanCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				9719B9731D83B4DE00539919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
