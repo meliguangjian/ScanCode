@@ -9,9 +9,6 @@ Pod::Spec.new do |s|
     s.source       = { :git => "git@github.com:meliguangjian/ScanCode.git", :tag => "0.0.1" }
     s.source_files  = ["ScanCode/ScanCode*.{h,m}"]
     s.requires_arc = true
-    s.resource_bundles = {
-        'MyLibrary' => ['Resources/*.png'],
-        'OtherResources' => ['OtherResources/*.png']
-    }
+    s.resources = ["ScanCode/resources/*.png"]
 
 end
